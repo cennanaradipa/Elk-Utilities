@@ -23,7 +23,7 @@ Detailed instructions on usage is provided inside the routine. Many thanks for M
 
 ## pdos-plotter.sh
 
-This was my first attempt at trying to add up all the PDOS for each element. The main flaw was the fact that this code was designed only for non-spin polarized calculations. The 'pdos.py' file is also an edited version of the 'blocks2columns.py' file. The only difference is that the written files add up all of the components in the separated blocks. This is quite problematic for spin-polarized calculations as the negative spin down is cancelled out by the positive spin up.
+This was my first attempt at trying to add up all the PDOS for each element. The main flaw was the fact that this code was designed only for non-spin polarized calculations. 'pdos.py' (line 37)  is also an edited version of the 'blocks2columns.py' file. The only difference is that the written files add up all of the components in the separated blocks. This is quite problematic for spin-polarized calculations as the negative spin down is cancelled out by the positive spin up.
 
 This can still be used to gather all the current files, since the first few lines of the script is collecting the necessary filenames to combine. Then again, 'elk-pdos.py' is very flexible since you can combine the whole PDOS.OUT files or just some of them. 
 
