@@ -1,4 +1,4 @@
-# Elk python utilities
+# Elk-Utilities
 
 I've been using Elk for almost a year now, and I think the format is better to understand compared to other DFT programs, but you do have to format them sometimes to get a good graph. I've had the most problems in the optics output files (task 120,121, etc.) and the PDOS format (task 20). Here are some of the utilities I've rewritten to aid in analyzing the data. 
 
@@ -33,3 +33,4 @@ This script has some nice awk, paste, and sed uses that may be useful to your wo
 
 
 
+# Elk-Utilities
