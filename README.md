@@ -6,7 +6,7 @@ I've been using Elk for almost a year now, and I think the format is better to u
 
 It's quite diffuclt to do any analysis on the PDOS data using Gnuplot since the data blocks are separated by only 1 blank space. Gnuplot prefers to have double spaces in between data blocks and even supports a header for each data block. I think this is a useful feature so I went ahead and tried to set this up.
 
-**Goal : Plot total PDOS each element, with ability to discern each bands and filenames** 
+### Goal : Plot total PDOS each element, with ability to discern each bands and filenames 
 
 Usage : 
 
@@ -29,9 +29,6 @@ This can still be used to gather all the current files, since the first few line
 
 This script has some nice awk, paste, and sed uses that may be useful to your work. They're scavanged from stack exchange and I've modified them to my needs.
 
+## pdos.gnu
 
-
-
-
-# Elk-Utilities
-# Elk-Utilities
+This is a sample Gnuplot script file for plotting the processed PDOS files. You can set which bands to plot using the index and which file to plot (or the sum of all the files you've combined) using the column number. 
